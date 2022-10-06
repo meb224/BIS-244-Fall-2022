@@ -16,16 +16,16 @@ cat("\014")
 library(tidyverse)
 
 # Storing the path of the current working directory
-Temp <- getwd()
+# Temp <- getwd()
 
-# Switching the working directory to the covid-19-data subfolder
-setwd("./covid-19-data/")
-
-# Reading the us.counties.csv in as a data frame
-COUNTIES <- read_csv("us-counties.csv")
-
-# Switching the working directory back to the project folder
-setwd(Temp)
+# # Switching the working directory to the covid-19-data subfolder
+# setwd("./covid-19-data/")
+# 
+# # Reading the us.counties.csv in as a data frame
+# COUNTIES <- read_csv("us-counties.csv")
+# 
+# # Switching the working directory back to the project folder
+# setwd(Temp)
 
 # Alternative way to access subfolders
 library(here)
